@@ -15,7 +15,7 @@ Therefore, I created some tips for how to search for collinear genomic regions r
 My basic methodology is to:
 <ul>
   <li>perform a genome vs. genome blast search</li>
-  <li>use a custom script "blast_to_mcscanx_gff.pl" to generate a GFF file with blast hits as the features rather than genes</li>
+  <li>use a custom script "blast_to_mcscanx.pl" to generate a GFF file with blast hits as the features rather than genes</li>
   <li>Feed the blast output and GFF file to the MCScanX program, tweeking parameters slightly</li>
   <li>Generate a dotplot</li>
 </ul>
